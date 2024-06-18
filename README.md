@@ -1,1 +1,1 @@
-# inertiapanel
+# inertia admin panel
