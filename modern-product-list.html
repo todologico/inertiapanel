@@ -6,8 +6,6 @@
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<link rel="shortcut icon" href="img/favicon.ico">
 		<title>Inertia Admin Template</title>
-
-		<!-- Core CSS -->
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
@@ -28,14 +26,14 @@
 						<div class="side-nav-content relative side-nav-scroll">
 							<nav class="menu menu-transparent px-4 pb-4">
 								<div class="menu-group">
-									<div class="menu-title">Apps</div>
+									<div class="menu-title">Módulos</div>
 									<ul>
 										<li class="menu-collapse">
 											<div class="menu-collapse-item">
 												<svg class="menu-item-icon" stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
 													<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 8v8m-4-5v5m-4-2v2m-2 4h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
 												</svg>
-												<span class="menu-item-text">Project</span>
+												<span class="menu-item-text">Productos</span>
 											</div>
 											<ul>
 												<li data-menu-item="modern-project-dashboard" class="menu-item">
@@ -65,7 +63,44 @@
 												<svg class="menu-item-icon" stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
 													<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
 												</svg>
-												<span class="menu-item-text">CRM</span>
+												<span class="menu-item-text">Pedidos</span>
+											</div>
+											<ul>
+												<li data-menu-item="modern-crm-dashboard" class="menu-item">
+													<a class="h-full w-full flex items-center" href="modern-crm-dashboard.html">
+														<span>Dashboard</span>
+													</a>
+												</li>
+												<li data-menu-item="modern-calendar" class="menu-item">
+													<a class="h-full w-full flex items-center" href="modern-calendar.html">
+														<span>Calendar</span>
+													</a>
+												</li>
+												<li data-menu-item="modern-customers" class="menu-item">
+													<a class="h-full w-full flex items-center" href="modern-customers.html">
+														<span>Customers</span>
+													</a>
+												</li>
+												<li data-menu-item="modern-customer-details" class="menu-item">
+													<a class="h-full w-full flex items-center" href="modern-customer-details.html">
+														<span>Customer Details</span>
+													</a>
+												</li>
+												<li data-menu-item="modern-mail" class="menu-item">
+													<a class="h-full w-full flex items-center" href="modern-mail.html">
+														<span>Mail</span>
+													</a>
+												</li>
+											</ul>
+										</li>	
+
+
+										<li class="menu-collapse">
+											<div class="menu-collapse-item">
+												<svg class="menu-item-icon" stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+													<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+												</svg>
+												<span class="menu-item-text">Ventas</span>
 											</div>
 											<ul>
 												<li data-menu-item="modern-crm-dashboard" class="menu-item">
@@ -103,7 +138,7 @@
 												<svg class="menu-item-icon" stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
 													<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
 												</svg>
-												<span class="menu-item-text">Account</span>
+												<span class="menu-item-text">Mi Cuenta</span>
 											</div>
 											<ul>
 												<li data-menu-item="modern-settings" class="menu-item">
@@ -414,15 +449,33 @@
                                                                 </td>
                                                             </tr>
 
-
-
-
-
-
-
-
                                                         </tbody>
                                                     </table>
+
+
+													<div class="overflow-x-auto"></div>
+														<div class="pagination">
+															<span class="pagination-pager pagination-pager-prev pagination-pager-disabled">
+																<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 20 20" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+																</svg>
+															</span>
+															<ul>
+																<li class="pagination-pager active">1</li>
+																<li class="pagination-pager">2</li>
+																<li class="pagination-pager" >3</li>
+																<li class="pagination-pager" >4</li>
+																<li class="pagination-pager" >5</li>
+															</ul>
+															<span class="pagination-pager pagination-pager-next">
+																<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 20 20" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path>
+																</svg>
+															</span>
+														</div>
+													</div>
+
+
                                                 </div>
                                             </div>
                                         </div>
@@ -448,18 +501,32 @@
 			</div>
 		</div>
 
-		<!-- Core Vendors JS -->
-		<script src="js/vendors.min.js"></script>
+		<script>
+			document.addEventListener('DOMContentLoaded', function () {
+			const menuCollapses = document.querySelectorAll('.menu-collapse');
 
-		<!-- Other Vendors JS -->
-        <script src="vendors/datatables/jquery.dataTables.min.js"></script>
-        <script src="vendors/datatables/dataTables.custom-ui.min.js"></script>
+			menuCollapses.forEach(menuCollapse => {
+				const menuCollapseItem = menuCollapse.querySelector('.menu-collapse-item');
+				const submenu = menuCollapse.querySelector('ul');
 
-		<!-- Page js -->
-        <script src="js/pages/product-list.js"></script>
+				menuCollapseItem.addEventListener('click', function () {
+					const isExpanded = submenu.classList.toggle('expanded');
+					if (isExpanded) {
+						submenu.style.display = 'block';
+					} else {
+						submenu.style.display = 'none';
+					}
+				});
 
-		<!-- Core JS -->
-		<script src="js/app.min.js"></script>
+				// Optional: Hide submenus by default
+				submenu.style.display = 'none';
+				});
+			});
+
+		</script>
+
+
+
 	</body>
 
 </html>
